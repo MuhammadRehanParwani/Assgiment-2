@@ -1,0 +1,46 @@
+
+.hero {
+    background-position: center;
+    height: 500px;
+    position: relative;
+    color: white;
+  }
+  
+  
+  
+  
+  .content {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .title {
+    font-size:xx-large;
+    font-weight: bold;
+    color: blue;
+    
+
+  }
+  
+  .subtitle {
+    font-size:medium;
+    margin-top: 10px;
+  }
+  
+  .cta {
+    background-color: rgb(141, 20, 165);
+    color:whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta:hover {
+    background-color: rgb(134, 43, 7);
+  }
+  

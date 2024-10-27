@@ -1,0 +1,60 @@
+/* header.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:  rgb(148, 34, 119);
+  }
+  
+  .logo img {
+    max-width: 150px;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .navList {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .navItem {
+    font-size: 16px;
+    color: white;
+    
+  }
+  
+  
+  
+  .mobileMenu {
+    display: none;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    .nav {
+      display: none; 
+    }
+  
+    .mobileMenu {
+      display: block; 
+    }
+    
+    .menuIcon {
+      cursor: pointer;
+    }
+  
+    .sheetNavList {
+      list-style: none;
+      padding: 0;
+    }
+  
+    .sheetNavItem {
+      padding: 10px 0;
+      font-size: 18px;
+    }
+  }
